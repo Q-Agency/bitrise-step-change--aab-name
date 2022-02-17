@@ -94,6 +94,6 @@ outputs:
   - BITRISE_SIGNED_AAB_PATH:
     opts:
       title: "Path to .AAB file"
-      summary: 
+      summary: Path to .AAB file
       description: |
-      Path to .AAB file
+        Path to .AAB file
