@@ -97,25 +97,25 @@ outputs:
       summary: Path to .AAB file
       description: |
         Path to .AAB file
-   - BITRISE_APK_PATH:
+  - BITRISE_APK_PATH:
     opts:
       title: "Path to .APK file"
       summary: Path to .APK file
       description: |
         Path to .APK file
-   - BITRISE_APP_FINAL_NAME_AAB:
+  - BITRISE_APP_FINAL_NAME_AAB:
     opts:
       title: "AAB filename"
       summary: AAB filename
       description: |
         AAB filename
-    - BITRISE_APP_FINAL_NAME_APK:
+  - BITRISE_APP_FINAL_NAME_APK:
     opts:
       title: "APK filename"
       summary: APK filename
       description: |
         APK filename
-    - BITRISE_APP_FINAL_NAME:
+  - BITRISE_APP_FINAL_NAME:
     opts:
       title: "Build name."
       summary: Build name.
