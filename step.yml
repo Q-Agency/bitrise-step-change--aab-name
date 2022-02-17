@@ -84,7 +84,7 @@ inputs:
       is_required: true
 
 outputs:
-  - COMMIT_MESSAGE_CLEAN2:
+  - COMMIT_MESSAGE_CLEAN:
     opts:
       title: "Commit messages."
       summary: Commit messages parsed from between two last git TAGs.
