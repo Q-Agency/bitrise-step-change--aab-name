@@ -84,13 +84,6 @@ inputs:
       is_required: true
 
 outputs:
-  - COMMIT_MESSAGE_CLEAN:
-    opts:
-      title: "Commit messages."
-      summary: Commit messages parsed from between two last git TAGs.
-      description: |
-        Commit massages parsed from between two last git TAGs. If no TAGS are present, it shows default message.
-        ID-1234567: Task description
   - BITRISE_SIGNED_AAB_PATH:
     opts:
       title: "Path to .AAB file"
