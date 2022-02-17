@@ -10,7 +10,7 @@
 title: |-
   Prepare build filename
 summary: |
-  Change file names to include version and build numbers.
+  Change file names to include version and build numbers. Example: AppNameStaging-v1.1.0-b53
 description: |
   This step will change build filename name to x_vx.x.x_bxbXX
 website: https://github.com/Q-Agency/bitrise-step-change--aab-name
