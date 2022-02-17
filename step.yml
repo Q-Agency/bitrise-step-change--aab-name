@@ -8,14 +8,14 @@
 # - Bitrise CLI guides: http://devcenter.bitrise.io/bitrise-cli/
 
 title: |-
-  Change .AAB name 2
+  Prepare build filename
 summary: |
-  Step to change .AAB file name
+  Change file names to include version and build numbers.
 description: |
-  This step will change .AAB name to x_vx.x.x_bxbXX
-website: https://github.com/frkizg/bitrise-step-change--aab-name
-source_code_url: https://github.com/frkizg/bitrise-step-change--aab-name
-support_url: https://github.com/frkizg/bitrise-step-change--aab-name/issues
+  This step will change build filename name to x_vx.x.x_bxbXX
+website: https://github.com/Q-Agency/bitrise-step-change--aab-name
+source_code_url: https://github.com/Q-Agency/bitrise-step-change--aab-name
+support_url: https://github.com/Q-Agency/bitrise-step-change--aab-name/issues
 host_os_tags:
   - osx-10.10
   - ubuntu-16.04
