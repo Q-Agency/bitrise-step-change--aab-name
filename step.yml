@@ -64,7 +64,7 @@ toolkit:
 
 
 inputs:
-  - example_step_input: $BUILD_NAME
+  - change_filename_build_name: $BUILD_NAME
     opts:
       title: "Build name"
       summary: "Name should contain environment. Example: AppNameStaging"
