@@ -1,4 +1,4 @@
-# Change .AAB name
+# Change build name
 
 This step will change build filename to x_vx.x.x_bxbXX
 
