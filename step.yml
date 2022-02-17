@@ -62,3 +62,23 @@ toolkit:
   bash:
     entry_file: step.sh
 
+inputs:
+  - change_filename_build_name: $BUILD_NAME
+    opts:
+      title: "Build name"
+      summary: "Name should contain environment. Example: AppNameStaging"
+      description: |
+        Name of the build. This value should be set inside Env Vars section.
+      is_required: true
+  - change_filename_version_number: $ANDROID_VERSION_NAME
+    opts:
+      title: "Version"
+      summary: "Build version"
+      description: |
+      is_required: true
+  - change_filename_build_number: $ANDROID_VERSION_CODE
+    opts:
+      title: "Build number"
+      summary: "Build number"
+      description: |
+      is_required: true
