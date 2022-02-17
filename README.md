@@ -1,6 +1,6 @@
 # Change .AAB name
 
-This step will change .AAB name to x_vx.x.x_bxbXX
+This step will change build filename to x_vx.x.x_bxbXX
 
 
 ## How to use this Step
