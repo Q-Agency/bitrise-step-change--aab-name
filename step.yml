@@ -64,14 +64,12 @@ toolkit:
 
 
 inputs:
-  - example_step_input: Default Value - you can leave this empty if you want to
+  - example_step_input: $BUILD_NAME
     opts:
-      title: "Example Step Input"
-      summary: Summary. No more than 2-3 sentences.
+      title: "Build name"
+      summary: "Name should contain environment. Example: AppNameStaging"
       description: |
-        Description of this input.
-
-        Can be Markdown formatted text.
+        Name of the build. This value should be set inside Env Vars section.
       is_expand: true
       is_required: true
       value_options: []
