@@ -70,7 +70,7 @@ inputs:
       summary: "Name should contain environment. Example: AppNameStaging"
       description: |
         Name of the build. This value should be set inside Env Vars section.
-      is_expand: true
+      #is_expand: true
       is_required: true
       #value_options: []
 
