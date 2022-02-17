@@ -85,11 +85,29 @@ inputs:
       is_required: true
 
 outputs:
-  - EXAMPLE_STEP_OUTPUT:
+  - BITRISE_SIGNED_AAB_PATH:
     opts:
-      title: "Example Step Output"
-      summary: Summary. No more than 2-3 sentences.
+      title: "Path to .AAB file"
+      summary: 
       description: |
-        Description of this output.
+   - BITRISE_APK_PATH:
+    opts:
+      title: Path to .APK file"
+      summary: 
+      description: |
+   - BITRISE_APP_FINAL_NAME_AAB:
+    opts:
+      title: "AAB filename"
+      summary: 
+      description: |
+    - BITRISE_APP_FINAL_NAME_APK:
+    opts:
+      title: "APK filename"
+      summary: 
+      description: |
+    - BITRISE_APP_FINAL_NAME:
+    opts:
+      title: "Build name."
+      summary: 
+      description: |
 
-         Can be Markdown formatted text.
