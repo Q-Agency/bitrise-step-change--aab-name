@@ -82,30 +82,12 @@ inputs:
       summary: "Build number"
       description: |
       is_required: true
-      
+
 outputs:
-  - BITRISE_SIGNED_AAB_PATH:
+  - COMMIT_MESSAGE_CLEAN:
     opts:
-      title: "Path to .AAB file"
-      summary: 
+      title: "Commit messages."
+      summary: Commit messages parsed from between two last git TAGs.
       description: |
-   - BITRISE_APK_PATH:
-    opts:
-      title: Path to .APK file"
-      summary: 
-      description: |
-   - BITRISE_APP_FINAL_NAME_AAB:
-    opts:
-      title: "AAB filename"
-      summary: 
-      description: |
-    - BITRISE_APP_FINAL_NAME_APK:
-    opts:
-      title: "APK filename"
-      summary: 
-      description: |
-    - BITRISE_APP_FINAL_NAME:
-    opts:
-      title: "Build name."
-      summary: 
-      description: |
+        Commit massages parsed from between two last git TAGs. If no TAGS are present, it shows default message.
+        ID-1234567: Task description
