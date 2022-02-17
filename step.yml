@@ -91,3 +91,10 @@ outputs:
       description: |
         Commit massages parsed from between two last git TAGs. If no TAGS are present, it shows default message.
         ID-1234567: Task description
+        
+  - BITRISE_SIGNED_AAB_PATH:
+    opts:
+      title: "Path to .AAB file"
+      summary: 
+      description: |
+      "Path to .AAB file"
