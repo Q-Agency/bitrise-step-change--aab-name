@@ -11,7 +11,7 @@ if [ -f "$FILE" ]; then
     mv "$change_filename_aab_path" "$new_build_path.aab"
 else 
     echo "Android .AAB file does not exist."
-    return 1
+    exit 1
 fi
 
 FILE2="$change_filename_apk_path"
@@ -19,7 +19,7 @@ if [ -f "$FILE2" ]; then
     mv "$change_filename_apk_path" "$new_build_path.apk"
 else 
     echo "Android .APK file does not exist."
-    return 1
+    exit 1
 fi
 
 envman add --key BITRISE_SIGNED_AAB_PATH --value "$new_build_path.aab"
