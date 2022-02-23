@@ -11,7 +11,7 @@ if [ -f "$FILE" ]; then
     mv "$BITRISE_SIGNED_AAB_PATH" "$new_build_path.aab"
     mv "$BITRISE_APK_PATH" "$new_build_path.apk"
 else 
-    echo "$FILE does not exist."
+    echo "Android build file does not exist."
     return 1
 fi
 
