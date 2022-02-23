@@ -6,13 +6,13 @@ final_app_name="$change_filename_build_name-v$change_filename_version_number-b$c
 
 new_build_path="${BITRISE_DEPLOY_DIR}/$final_app_name"
 
-FILE="$change_filename_aab_path"
-if [ -f "$FILE" ]; then
-    mv "$change_filename_aab_path" "$new_build_path.aab"
-else 
-    echo "Android .AAB file does not exist."
-    exit 1
-fi
+# FILE="$change_filename_aab_path"
+# if [ -f "$FILE" ]; then
+#     mv "$change_filename_aab_path" "$new_build_path.aab"
+# else 
+#     echo "Android .AAB file does not exist."
+#     exit 1
+# fi
 
 FILE2="$change_filename_apk_path"
 if [ -f "$FILE2" ]; then
