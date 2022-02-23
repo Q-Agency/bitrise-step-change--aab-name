@@ -6,8 +6,14 @@ final_app_name="$change_filename_build_name-v$change_filename_version_number-b$c
 
 new_build_path="${BITRISE_DEPLOY_DIR}/$final_app_name"
 
-# mv "$BITRISE_SIGNED_AAB_PATH" "$new_build_path.aab"
-# mv "$BITRISE_APK_PATH" "$new_build_path.apk"
+FILE="$BITRISE_SIGNED_AAB_PATH"
+if [ -f "$FILE" ]; then
+    mv "$BITRISE_SIGNED_AAB_PATH" "$new_build_path.aab"
+    mv "$BITRISE_APK_PATH" "$new_build_path.apk"
+else 
+    echo "$FILE does not exist."
+    return 1
+fi
 
 envman add --key BITRISE_SIGNED_AAB_PATH --value "$new_build_path.aab"
 envman add --key BITRISE_APK_PATH --value "$new_build_path.apk"
