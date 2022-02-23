@@ -9,6 +9,9 @@ final_app_name_apk="$final_app_name.apk"
 new_aab_path="${BITRISE_DEPLOY_DIR}/$final_app_name_aab"
 new_apk_path="${BITRISE_DEPLOY_DIR}/$final_app_name_apk"
 
+echo "$new_aab_path"
+echo "$new_apk_path"
+
 # mv "$BITRISE_SIGNED_AAB_PATH" "$new_aab_path"
 # mv "$BITRISE_APK_PATH" "$new_apk_path"
 
