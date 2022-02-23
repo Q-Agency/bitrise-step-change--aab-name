@@ -82,6 +82,22 @@ inputs:
       summary: "Build number"
       description: |
       is_required: true
+  - change_filename_aab_path: $BITRISE_AAB_PATH
+    opts:
+      title: "Android App Bundle path"
+      summary: "Android App Bundle file (`.aab`) path"
+      description: |
+        The **Android App Bundle path** input field is automatically filled out by the output of the previous build Step
+      is_expand: true
+      is_required: true
+  - change_filename_apk_path: $BITRISE_APK_PATH
+    opts:
+      title: "Android APK path"
+      summary: "Android APK file (`.apk`) path"
+      description: |
+        The **Android APK path** input field is automatically filled out by the output of the previous build Step
+      is_expand: true
+      is_required: true
 
 outputs:
   - BITRISE_SIGNED_AAB_PATH:
